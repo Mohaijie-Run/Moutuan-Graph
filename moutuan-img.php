@@ -29,7 +29,7 @@
 			'sec-ch-ua: "Not A(Brand";v="99", "Microsoft Edge";v="121", "Chromium";v="121"',
 			'Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywt1pMxJgab51elEB',
 			'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0',
-			'token: AgF7If3i6xz7_U7dgfc_nDmUtUGLLSc4ef-D0U2homTMcTPtFGqXwERMUlLBD06X-aZr1zf2T74QowAAAAAxJgAAQGdG-Mz6Awz8iY-BRJO4Cj_NeKcZcdbhx3FUvgAjAbcAXpEs-0dnPDvirhQa-t7L',
+			'token: YOUR-MOUTUAN-USER-TOKEN',
 		);
 
 		// 构建multipart/form-data数据
