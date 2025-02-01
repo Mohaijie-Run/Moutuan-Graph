@@ -10,7 +10,7 @@
 
 ## 食用APIの方法？
 
-> 请您务必记得现在PHP代码中将`YOUR-MOUTUAN-USER-TOKEN`替换为您自己的用户Token，才能正常使用。网上有相关的替换教程，可以自己搜一下的。
+> 请您务必记得先在PHP代码中将`YOUR-MOUTUAN-USER-TOKEN`替换为您自己的用户Token，才能正常使用。网上有相关的替换教程，可以自己搜一下的。
 
 ```html
 <form action="YOUR-API-ADDRESS" method="POST" enctype="multipart/form-data">
