@@ -1,5 +1,5 @@
 <h1 align=center>Moutuan-Graph</h1>
-<p align=center>开源、免费、开箱即用の《某团》图床API接口</p>
+<p align=center>开源、免费、开箱即用 の《某团》图床API接口</p>
 
 ## 项目开发原因？
 
