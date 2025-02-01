@@ -1,6 +1,6 @@
 <h1 align=center>Moutuan-Graph</h1>
 <p align=center><b>开源、免费、开箱即用 の《某团》图床API接口</b></p>
-<p align=center>🎉 您的Star是我们的最大动力源泉 🎉</p>
+<p align=center>🎉 您的Star是我们的最大动力 🎉</p>
 
 ## 开发の原因？
 
