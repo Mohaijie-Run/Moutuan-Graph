@@ -7,8 +7,14 @@
 ## 食用APIの方法？
 
 ```html
-<form action="./static/lians/ap/upload.php" method="POST" enctype="multipart/form-data">
+<form action="YOUR-API-ADDRESS" method="POST" enctype="multipart/form-data">
     <input type="file" name="file" accept="*/*" required />
-    <button type="submit">开始上传</button>
+    <button type="submit">上传文件</button>
 </form>
 
+以上是一个HTML发送请求上传图片的示例。该HTML代码定义了一个上传文件的表单，使用`<form>`标签。  
+- `action="YOUR-API-ADDRESS"`指定表单数据提交的API地址。  
+- `method="POST"`表示使用POST方法提交表单数据。  
+- `enctype="multipart/form-data"`用于指定表单将以多部分数据格式发送，支持文件上传。  
+- `<input type="file" name="file" accept="*/*" required />`创建了一个文件选择输入框，`accept="*/*"`允许选择任何类型的文件，`required`表示此字段为必填项。  
+- `<button type="submit">上传文件</button>`是提交按钮，用户点击后上传文件。
