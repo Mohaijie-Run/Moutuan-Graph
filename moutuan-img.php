@@ -39,7 +39,7 @@
 		$postData .= file_get_contents($file['tmp_name']) . "\r\n";
 		$postData .= "------WebKitFormBoundarywt1pMxJgab51elEB--\r\n";
 
-		// 使用Curl上传文件到美团
+		// 使用Curl上传文件到某团
 		$ch = curl_init();
 			curl_setopt($ch, CURLOPT_POST, true);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
