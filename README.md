@@ -10,6 +10,8 @@
 
 ## 食用APIの方法？
 
+请您务必记得现在PHP代码中将`YOUR-MOUTUAN-USER-TOKEN`替换为您自己的用户Token，才能正常使用。网上有相关的替换教程，可以自己搜一下的。
+
 ```html
 <form action="YOUR-API-ADDRESS" method="POST" enctype="multipart/form-data">
     <input type="file" name="file" accept="*/*" required />
@@ -17,7 +19,8 @@
 </form>
 ```
 
-以上是一个HTML发送请求上传图片的示例。该HTML代码定义了一个上传文件的表单，使用`<form>`标签。  
+以上是一个HTML发送请求上传图片的示例。该HTML代码定义了一个上传文件的表单，使用`<form>`标签。
+
 - `action="YOUR-API-ADDRESS"`指定表单数据提交的API地址。  
 - `method="POST"`表示使用POST方法提交表单数据。  
 - `enctype="multipart/form-data"`用于指定表单将以多部分数据格式发送，支持文件上传。  
