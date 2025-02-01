@@ -29,7 +29,7 @@
 			'sec-ch-ua: "Not A(Brand";v="99", "Microsoft Edge";v="121", "Chromium";v="121"',
 			'Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywt1pMxJgab51elEB',
 			'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0',
-			'token: YOUR-MOUTUAN-USER-TOKEN', // 这里需要替换为您自己的美团用户Token才能用，网上有教程可以自己搜一下的。
+			'token: YOUR-MOUTUAN-USER-TOKEN', // 这里需要替换为您自己的美团用户Token才能用，网上有教程可以自己搜一下噢。
 		);
 
 		// 构建multipart/form-data数据
