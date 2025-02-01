@@ -19,3 +19,10 @@
 - `enctype="multipart/form-data"`用于指定表单将以多部分数据格式发送，支持文件上传。  
 - `<input type="file" name="file" accept="*/*" required />`创建了一个文件选择输入框，`accept="*/*"`允许选择任何类型的文件，`required`表示此字段为必填项。  
 - `<button type="submit">上传文件</button>`是提交按钮，用户点击后上传文件。
+
+## 该项目の许可证信息？
+证书名称：**Apache License 2.0**
+
+Copyright 2025 Xuater Crop
+
+你可以自由地使用、修改和分发该代码，前提是必须在所有副本中包含版权声明和许可声明，并且标明对修改过的代码做出的变更。
