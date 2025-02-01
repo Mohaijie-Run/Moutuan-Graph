@@ -11,6 +11,7 @@
     <input type="file" name="file" accept="*/*" required />
     <button type="submit">上传文件</button>
 </form>
+```
 
 以上是一个HTML发送请求上传图片的示例。该HTML代码定义了一个上传文件的表单，使用`<form>`标签。  
 - `action="YOUR-API-ADDRESS"`指定表单数据提交的API地址。  
