@@ -1,4 +1,13 @@
 <?php
+	// 可以选择限制请求源
+	$allowedOrigins = ['YOUR-WEBSITE-DOMAIN'];
+	$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+	if (in_array($origin, $allowedOrigins)) {
+		header('Access-Control-Allow-Origin: ' . $origin);
+	} else {
+		header('Access-Control-Allow-Origin: none');
+	}
+
 	// 设置格式与默认响应
 	header('Content-Type: application/json');
 	$response = array(
