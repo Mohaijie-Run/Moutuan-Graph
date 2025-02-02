@@ -1,5 +1,5 @@
 <?php
-	// 设置格式并检测上传
+	// 设置返回与默认响应
 	header('Content-Type: application/json');
 	$response = array(
 		'status' => 'warning',
