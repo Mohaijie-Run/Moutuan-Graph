@@ -1,5 +1,5 @@
 <?php
-	// 设置格式与默认响应
+	// 设置规则与默认响应
 	header('Content-Type: application/json');
 	header('Access-Control-Allow-Origin: *');
 	$response = array(
